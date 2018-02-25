@@ -6,6 +6,12 @@ $medium-size: 3.2rem;
 $big-size: 4rem;
 $xl-size: 6em;
 
+$altura: 30rem;
+
+@media(max-width: 45rem){
+  $altura: 15rem;
+}
+
 // COLORES
 $white: #FFFFFF;
 $dim-white: #CDD7D6;

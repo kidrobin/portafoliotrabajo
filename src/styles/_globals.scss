@@ -1,6 +1,13 @@
 html{
   font-size: 62.5%;
 }
+
+@media (max-width: 45rem){
+  html{
+    font-size: 31%;
+  }
+}
+
 body{
   background: $deep-blue;
   font-family: $font-principal;
@@ -53,10 +60,4 @@ footer{
   color: $dim-white;
   font-weight: bold;
   font-family: courier
-}
-
-@media (max-width: 45rem){
-  html{
-    font-size: 31%;
-  }
 }
