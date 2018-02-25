@@ -1,0 +1,62 @@
+.proyecto{
+  margin: 0;
+  padding: 0;
+}
+
+.proyecto--contenido{
+  padding: $small-size;
+  margin: $xs-size $decimal-size;
+  border: solid $decimal-size $cool-orange;
+
+  text-align: center;
+  min-width: 50vh;
+  background: $dim-white;
+}
+
+.proyecto--contenido img{
+  width: 100%;
+  margin-bottom: $medium-size;
+}
+
+.proyecto--contenido .carrusel{
+  width: 100%;
+  margin-bottom: $medium-size;
+}
+
+.proyecto--contenido h3{
+  font-weight: bold;
+  font-size: $medium-size;
+  color: $deep-blue;
+}
+
+.proyecto--contenido p{
+  color: $cool-orange;
+  font-weight: bold;
+  font-size: $small-size;
+  margin-bottom: $medium-size;
+}
+
+.proyecto--boton{
+  cursor: pointer;
+  border: solid 0.2rem $cool-orange;
+  background: $dim-white;
+  border-radius: 0.6rem;
+  padding: $xs-size;
+  font-size: $xs-size;
+  color: $deep-blue;
+  transition: $fps;
+}
+
+.proyecto--boton:hover{
+  background: $deep-blue;
+  color: $dim-white;
+  transition: $fps;
+}
+
+.proyecto--contenido a{
+  color: $deep-blue !important;
+}
+
+.proyecto--contenido a:hover{
+  color: $dim-white !important;
+}

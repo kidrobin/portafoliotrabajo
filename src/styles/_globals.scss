@@ -1,0 +1,62 @@
+html{
+  font-size: 62.5%;
+}
+body{
+  background: $deep-blue;
+  font-family: $font-principal;
+  color: $white;
+  font-weight: 400;
+}
+
+.container{
+  padding: 0;
+}
+h1{
+  font-weight: 400;
+}
+
+p{
+  color: $dim-white
+}
+
+button{
+  cursor: pointer;
+  border: solid 0.2rem $cool-orange;
+  background: $deep-blue;
+  border-radius: 0.6rem;
+  padding: $xs-size;
+  font-size: $xs-size;
+  color: $white;
+  transition: $fps;
+}
+
+button:hover{
+  color: $deep-blue;
+  background: $cool-orange;
+  box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);
+}
+
+
+h2{
+  font-size: $big-size;
+  margin: $big-size auto;
+  padding: $small-size 0;
+  text-align: center;
+
+  border-bottom: solid $xs-size $cool-orange;
+}
+
+footer{
+  margin-top: $big-size;
+  text-align: center;
+  font-size: $small-size;
+  color: $dim-white;
+  font-weight: bold;
+  font-family: courier
+}
+
+@media (max-width: 45rem){
+  html{
+    font-size: 31%;
+  }
+}

@@ -13,7 +13,7 @@ export default class Proyecto extends React.Component{
 
   render(){
     return(
-      <div className="col-md-6 proyecto">
+      <div className="col-xs-6 col-sm-6 col-md-6 proyecto">
         <div className="proyecto--contenido">
 
         <Carousel className="carrusel"

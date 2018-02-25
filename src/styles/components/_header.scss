@@ -1,0 +1,71 @@
+.nav{
+  background: $cool-orange;
+}
+
+.landing{
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  border: none;
+}
+
+.landing--content{
+  border: solid 1rem $cool-orange;
+  margin: 20vh auto;
+  padding: $xs-size;
+  width: 80%;
+  text-align: center;
+  box-shadow: 0.6rem 0.6rem 0.6rem rgba(0,0,0,0.4);
+}
+
+.landing--content h1{
+  font-size: $xl-size;
+  font-weight: bold;
+}
+
+.landing--nota{
+  margin: $small-size auto;
+  font-weight: bold;
+}
+
+.landing--content p{
+  font-size: $small-size;
+  color: $dim-white;
+}
+
+
+.nav{
+  min-height: $big-size;
+  color: $white;
+}
+
+.nav-link{
+  color: $white;
+  font-size: $small-size;
+}
+
+
+
+.contacto{
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  height: 100vh;
+  width: 100%;
+  background: $cool-orange;
+  color: $dim-white;
+  font-size: $big-size;
+  transition: 0.8s;
+}
+
+.contacto--datos{
+  margin: $big-size auto;
+  text-align: right;
+  transition: 0.8s;
+}
+
+.nav--boton{
+  cursor: pointer;
+}
