@@ -2,12 +2,6 @@ html{
   font-size: 62.5%;
 }
 
-@media (max-width: 45rem){
-  html{
-    font-size: 31%;
-  }
-}
-
 body{
   background: $deep-blue;
   font-family: $font-principal;
@@ -68,4 +62,10 @@ a{
 
 a:hover{
   color: $white;
+}
+
+@media (max-width: 350px){
+  html{
+    font-size: 31%;
+  }
 }
