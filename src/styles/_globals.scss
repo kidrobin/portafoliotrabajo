@@ -61,3 +61,11 @@ footer{
   font-weight: bold;
   font-family: courier
 }
+
+a{
+  transition: 0.4s;
+}
+
+a:hover{
+  color: $white;
+}

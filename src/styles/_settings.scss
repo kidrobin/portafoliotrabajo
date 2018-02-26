@@ -8,7 +8,7 @@ $xl-size: 6em;
 
 $altura: 30rem;
 
-@media(max-width: 45rem){
+@media(min-width: 45rem){
   $altura: 15rem;
 }
 

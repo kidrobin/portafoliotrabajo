@@ -22,7 +22,7 @@ const Landing = () => (
         <p className="landing--nota">
           Tambien me gusta la escena musical mexicana independiente.
         </p>
-        <button>Ver Curriculum</button>
+        <a href="./docs/LuisBustamante_CV-2018.pdf" target="_blank" className="landing--boton">Ver Currículum </a>
       </div>
   </div>
 );
