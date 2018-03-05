@@ -121,6 +121,7 @@ export default class Portafolio extends React.Component{
     this.setState(
       (prevState) => ( {contacto: !prevState.contacto})
     );
+    console.log('skrt');
   }
 
   animar(){

@@ -23,12 +23,9 @@ export default class Contacto extends React.Component{
               this.state.contactos.map( (contacto) => (
 
                 <div key={contacto.datoContacto} className="row contacto--datos">
-                  <div className="col-md-2">
+                  <div className="col-md-12">
                       <i className={`fas ${contacto.icono}`}></i>
-                  </div>
-
-                  <div className="col-md-10">
-                      : {contacto.datoContacto}
+                      {contacto.datoContacto}
                   </div>
 
                 </div>

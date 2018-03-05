@@ -1,5 +1,38 @@
 .nav{
   background: $cool-orange;
+  transition: 0.4s
+}
+
+.nav-show{
+  background: $cool-orange;
+  margin: 0;
+  border: none;
+  font-size: $big-size;
+  padding: $xs-size;
+  transition: 0.4s
+}
+
+.nav-small{
+  font-size: $big-size;
+  display: inline-block;
+  transition: 0.4s
+}
+
+.nav-small .nav-link{
+  color: $white;
+  padding-top: $small-size;
+  font-size: $big-size;
+  transition: 0.4s
+}
+
+.nav-big{
+  display: inline-flex;
+  transition: 0.4s;
+}
+
+.nav-big nav{
+  display: inline-flex;
+  transition: 0.4s;
 }
 
 .landing{
@@ -41,6 +74,7 @@
 .nav{
   min-height: $big-size;
   color: $white;
+  transition: 0.4s;
 }
 
 .nav-link{
@@ -54,24 +88,29 @@
 }
 
 .contacto{
+  color: $dim-white;
+  font-size: $medium-size;
+
   position: fixed;
-  top: 0;
+  top: 20rem;
   right: 0;
   left: 0;
-  z-index: 1030;
-  height: 100vh;
+  z-index: 1;
+  height: 73vh;
   width: 100%;
-  background: $cool-orange;
-  color: $dim-white;
-  font-size: $big-size;
+  background: #f87060ff;
   transition: 0.8s;
-  padding: 14rem 0;
+  padding: 10rem 0;
 }
 
 .contacto--datos{
   margin: $big-size auto;
   text-align: right;
   transition: 0.8s;
+}
+
+.contacto i{
+  margin: 0 $xs-size;
 }
 
 
@@ -99,4 +138,8 @@ a{
 
 .nav a:hover{
   color: $deep-blue;
+}
+
+nav{
+    transition: 0.4s;
 }

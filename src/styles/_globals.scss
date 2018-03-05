@@ -64,8 +64,19 @@ a:hover{
   color: $white;
 }
 
+
+@media (max-width: 500px){
+  html{
+    font-size: 42%;
+  }
+}
+
 @media (max-width: 350px){
   html{
     font-size: 31%;
   }
+}
+
+.row{
+  margin: 0
 }
