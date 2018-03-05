@@ -83,7 +83,7 @@
   transition: 0.4s
 }
 
-.nav-link:hover{
+.nav-link:hover, .nav-link:active{
   color: $deep-blue;
 }
 
@@ -126,7 +126,7 @@
   margin: $xs-size auto;
 }
 
-.landing--boton:hover{
+.landing--boton:hover, .landing--boton:active{
   color: $deep-blue;
   background: $cool-orange;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);
@@ -136,7 +136,7 @@ a{
   text-decoration: none;
 }
 
-.nav a:hover{
+.nav a:hover, .nav a:active{
   color: $deep-blue;
 }
 

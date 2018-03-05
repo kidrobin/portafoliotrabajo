@@ -11,7 +11,7 @@
   font-family: courier;
 }
 
-.habilidad:hover{
+.habilidad:hover, .habilidad:active{
   box-shadow: -3px -4px 13px rgba(0, 0, 0, 0.51);
 }
 
@@ -39,7 +39,7 @@
   transition: $fps;
 }
 
-.frontend:hover{
+.frontend:hover, .frontend:active{
   background: lighten($dim-white, 20%);
   color: $cool-orange;
 }
@@ -50,6 +50,6 @@
   transition: $fps;
 }
 
-.backend:hover{
+.backend:hover, .backend:active{
   background: lighten($deep-blue, 20%);
 }

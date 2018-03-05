@@ -31,7 +31,7 @@ button{
   transition: $fps;
 }
 
-button:hover{
+button:hover, button:active{
   color: $deep-blue;
   background: $cool-orange;
   box-shadow: 0.2rem 0.2rem 0.2rem rgba(0,0,0,0.4);
@@ -60,7 +60,7 @@ a{
   transition: 0.4s;
 }
 
-a:hover{
+a:hover, a:active{
   color: $white;
 }
 

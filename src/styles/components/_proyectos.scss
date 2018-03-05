@@ -47,7 +47,7 @@
   transition: $fps;
 }
 
-.proyecto--boton:hover{
+.proyecto--boton:hover, .proyecto--boton:active{
   background: $deep-blue;
   color: $dim-white;
   transition: $fps;
@@ -57,6 +57,6 @@
   color: $deep-blue !important;
 }
 
-.proyecto--contenido a:hover{
+.proyecto--contenido a:hover, .proyecto--contenido a:active{
   color: $dim-white !important;
 }
